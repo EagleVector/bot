@@ -31,5 +31,5 @@ client.on('interactionCreate', interaction => {
 })
 
 client.login(
-  "MTEyNjUxMTA2MzY4MTIyNDg0Ng.GYA6Vt.BkubxSpylqW0qdZJZGvoxyp06ZlCedyoRXBOYw"
+  "MTEyNjUx******************************************yp06ZlCedyoRXBOYw"
 )

@@ -10,14 +10,14 @@ const commands = [
 ];
 
 const rest = new REST({ version: "10" }).setToken(
-  "MTEyNjUxMTA2MzY4MTIyNDg0Ng.GYA6Vt.BkubxSpylqW0qdZJZGvoxyp06ZlCedyoRXBOYw"
+  "MTEyNjUxMTA2MzY4MTIyND****************************oxyp06ZlCedyoRXBOYw"
   );
 
 (async () => {
   try {
     console.log('Started refreshing application (/) commands');
 
-    await rest.put(Routes.applicationCommands("1126511063681224846"), { body: commands });
+    await rest.put(Routes.applicationCommands("1************1224846"), { body: commands });
 
     console.log("Successfully reloaded application (/) commands");
   } catch (error) {
